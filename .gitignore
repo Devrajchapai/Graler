@@ -1,0 +1,58 @@
+# Prerequisites
+*.d
+
+# Object files and Libraries
+*.o
+*.ko
+*.obj
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Shared libraries and static archives
+*.a
+*.lib
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+# (Add specific executable names here if they don't have extensions, e.g., /my_program)
+*.exe
+*.out
+*.app
+
+# Common Build Directories
+build/
+bin/
+out/
+dist/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+
+# environment variables
+.env
+.env*
