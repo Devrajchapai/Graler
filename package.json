@@ -1,0 +1,32 @@
+{
+  "name": "graler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec tsx index.tsx",
+    "dev": "nodemon --exec tsx index.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devrajchapai/Graler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Devrajchapai/Graler/issues"
+  },
+  "homepage": "https://github.com/Devrajchapai/Graler#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
